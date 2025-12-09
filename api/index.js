@@ -8,9 +8,9 @@ export default function handler(req, res) {
     status: "Online ✅",
     endpoint: "/api/preview?url=YOUR_URL",
     examples: [
-      "https://link-preview-api-omega.vercel.app/api/preview?url=https://github.com",
-      "https://link-preview-api-omega.vercel.app/api/preview?url=https://chat.whatsapp.com/Lx4ghKdTOeK6ehjra1K1cl",
-      "https://link-preview-api-omega.vercel.app/api/preview?url=https://nodejs.org"
+      "/api/preview?url=https://github.com",
+      "/api/preview?url=https://chat.whatsapp.com/Lx4ghKdTOeK6ehjra1K1cl",
+      "/api/preview?url=https://nodejs.org"
     ],
     github: "https://github.com/CyberCoder225/link-preview-api"
   });
